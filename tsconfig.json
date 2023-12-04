@@ -1,0 +1,21 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.*"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "ES2018",
+    "lib": ["ES2015", "DOM"],
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "rootDir": "src",
+    "declaration": true,  
+    "sourceMap": true,
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true, 
+    "strict": true,   
+    "skipLibCheck": true,
+  }
+}
